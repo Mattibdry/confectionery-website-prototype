@@ -22,11 +22,20 @@ body {
 }
 
 .hero-header {
-  background-color: #C14F6E;
+  background-color: #888888;
   margin: 0;
-  padding-top: 1rem;
+  padding-top: .2rem;
   text-align: center;
-  border-bottom: solid 3px #E6849E;
+  border-bottom: solid 3px #585858;
+}
+
+.logo-header h1 {
+  border-bottom: solid 2px #585858;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  font-family: "Chewy", cursive;
+  font-size: 3rem;
+  color: black;
 }
 
 .logo-header img {
@@ -46,15 +55,60 @@ li a {
   color: white;
   padding: 15px 10px;
   text-decoration: none;
-  border-radius: 5px;
 
 }
 
 li a:hover {
-  background-color: #E6849E;
+  background-color: #585858;
 }
 
+/* BEFORE CONTAINER 01 */
+
+.custom-container-01{
+  position: relative;
+}
+
+.hero-image {
+  background-color: #888888;
+}
 
 .hero-image img {
   width: 100%;
+}
+
+.welcome-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
+.welcome-text h2 {
+  font-size: 1.7rem;
+}
+
+.welcome-text a {
+  text-decoration: none;
+  color: white;
+  background-color: #585858;
+  padding: .5rem;
+  border-radius: 4px;
+}
+
+.welcome-text a:hover {
+  color: #585858;
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #585858;
+}
+
+/* AFTER custom-container-01 */
+/* BEFORE custom-container-02 */
+
+.custom-container-02 {
+  background-color: #888888;
+  padding: 2rem;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 2.5rem;
 }
