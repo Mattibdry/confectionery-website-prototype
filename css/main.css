@@ -86,12 +86,12 @@ li a:hover {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 50%;
+  top: 40%;
   text-align: center;
 }
 
 .welcome-text h2 {
-  font-size: 1.7rem;
+  font-size: 100%;
 }
 
 .welcome-text a {
@@ -100,6 +100,7 @@ li a:hover {
   background-color: #585858;
   padding: .5rem;
   border-radius: 4px;
+  font-size: 80%;
 }
 
 .welcome-text a:hover {
@@ -202,6 +203,9 @@ li a:hover {
 
 /* AFTER custom-container-04 */
 
+  .footer {
+  font-size: 80%;
+  }
 /*****MQs*****/
 
 @media only screen and (min-width: 25em) {
@@ -253,7 +257,6 @@ li a:hover {
 
     .custom-container-02 {
       padding: 1rem;
-      padding-bottom: none;
     }
 
     .custom-container-03 .first {
@@ -348,7 +351,7 @@ li a:hover {
 
 @media only screen and (min-width: 90em) {
     html {
-      font-size: 150%;
+      font-size: 130%;
       line-height: 1.5;
     }
 
@@ -360,3 +363,4 @@ li a:hover {
     .hero-header {
       margin-bottom: 0;
     }
+}
